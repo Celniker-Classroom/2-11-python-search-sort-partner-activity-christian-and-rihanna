@@ -5,7 +5,7 @@ ranNum_list = [] # It is better to use a different variable name for the list th
 
 
 # Generates a list of 5 random integers between 1 and 50 inclusive.
-for _ in range(5): # The underscore indicates that the loop counter variable is not used
-    ranNum_list.append(randint(2,4)) # Append to the list, not the loop counter
+for _ in range(10): # The underscore indicates that the loop counter variable is not used
+    ranNum_list.append(randint(2,50)) # Append to the list, not the loop counter
    
 print(ranNum_list)
